@@ -1,0 +1,25 @@
+-----------------------------------------Interim Report I [10 April 2023]-----------------------------------------------
+The following objects have been added as separate files in the project:
+i.   object Game:          this object will hold the racing game attributes and functionality
+ii.  object TextInterface: this object will implement the text interface of the game
+iii. class Player:         this class will implement the player into the game
+iv.  class Car:             this class will implement the race car into the game
+
+These object have not yet been implemented. They are dummy classes as of now.
+I have been prioritising other assignments thus I have not put much time into the project thus far.
+I have spent perhaps 1-2 hours thus far.
+I will implement the objects in earnest in the following days and weeks.
+
+
+
+-----------------------------------------Interim Report II [23 April 2023]----------------------------------------------
+Deleted unimplemented Car.scala and Game.scala files. Replaced with RaceCar.scala and whole.Formula0.scala implementing a skeleton of a race car and a race respectively.
+whole.State design pattern is used for race car.
+whole.Formula0.scala implements a transition state-space model of a formula racing game with actions and successor states.
+Added Grid.scala substantially implementing a text-based racing grid.
+Player class and interfacing class still needed in addition to increasing functionality of existing classes.
+For instance, integration of player, race car, and grid instances is required to develop the game in whole.Formula0.scala.
+Testing has been minimal (mostly experimenting with console) thus far due to the skeleton nature of implementation thus far. As advancements ensue, testing will become ubiquitous.
+Potential errors may occur in movement of the race car along the race track. More inquiry is required to comprehend fully how direction and gear changes function.
+The workload for this 2 week sprint has been approximately 10 hours of active coding and about 6 of research into design and implementation.
+Race car movement remains a challenge to implement thus far, especially with the concept of "same direction".
